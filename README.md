@@ -45,7 +45,7 @@ Portable instruction files agents can load to implement email correctly.
 
 MCP that helps an IDE agent call a **send** or **setup** API while building an app.
 
-- [notifycx-mcp](https://www.npmjs.com/package/notifycx-mcp) — Official Notify MCP. Install: `npx -y notifycx-mcp`. Env: `NOTIFY_API_KEY`. Source: [notifycx/notifycx](https://github.com/notifycx/notifycx) (`mcp/`). Pointer repo: [email-mcp/notifycx-mcp](https://github.com/email-mcp/notifycx-mcp).
+- [notifycx-mcp](https://github.com/notifycx/notifycx/tree/main/mcp) — Official Notify MCP. Install: `npx -y notifycx-mcp`. Env: `NOTIFY_API_KEY`. Source: [notifycx/notifycx](https://github.com/notifycx/notifycx). Pointer repo: [email-mcp/notifycx-mcp](https://github.com/email-mcp/notifycx-mcp).
 - [mcp-server-sendgrid](https://github.com/modelcontextprotocol/servers) — Community/official MCP catalog entry for SendGrid sending (verify current package status in that repo).
 
 Personal Gmail MCP servers exist for reading/sending from a human mailbox; that is closer to **mailbox** workflows than app transactional implementation.
@@ -70,7 +70,7 @@ Personal Gmail MCP servers exist for reading/sending from a human mailbox; that 
 
 Listed for disambiguation—not as Notify equivalents.
 
-- [Commune](https://commune.email) and [awesome-email-agents](https://github.com/commune-dev/awesome-email-agents) — Dedicated agent email/SMS infrastructure, inbound, threading, cookbooks.
+- [awesome-email-agents](https://github.com/commune-dev/awesome-email-agents) (Commune) — Dedicated agent email/SMS infrastructure, inbound, threading, cookbooks.
 
 ## Inclusion criteria
 
